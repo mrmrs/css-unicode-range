@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "unicode-range"
   ],
   "css-unicode-range": {
     "type": "git",
