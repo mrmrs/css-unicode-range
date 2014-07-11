@@ -24,21 +24,21 @@ or download the css on github and include in your project.
 .ur-2 { unicode-range: U+400; }              /* wildcard_range */
 .ur-3 { unicode-range: U+0025-00FF, U+400; } /* multiple values can be separated by commas */
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .ur-ns {   unicode-range: U+26; }         /* single_codepoint */
   .ur-1-ns { unicode-range: U+0025-00FF; }        /* codepoint_range */
   .ur-2-ns { unicode-range: U+400; }              /* wildcard_range */
   .ur-3-ns { unicode-range: U+0025-00FF, U+400; } /* multiple values can be separated by commas */
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .ur-m {   unicode-range: U+26; }         /* single_codepoint */
   .ur-1-m { unicode-range: U+0025-00FF; }        /* codepoint_range */
   .ur-2-m { unicode-range: U+400; }              /* wildcard_range */
   .ur-3-m { unicode-range: U+0025-00FF, U+400; } /* multiple values can be separated by commas */
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .ur-l {   unicode-range: U+26; }         /* single_codepoint */
   .ur-1-l { unicode-range: U+0025-00FF; }        /* codepoint_range */
   .ur-2-l { unicode-range: U+400; }              /* wildcard_range */
