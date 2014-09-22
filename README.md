@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-unicode-range)
 ## File Size
 
 1.3K unicode-range.css
-638B unicode-range.min.css
+638B unicode-range.min.css 
+183B minified and gzipped
 
 ## The Code
 ```
