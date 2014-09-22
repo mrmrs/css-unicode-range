@@ -9,13 +9,18 @@
 *  -l  = large
 
 ## Install
+Grab the css partial from github and include it in your project or alternatively
+you can install it via npm:
 ```
 npm install --save-dev css-unicode-range
 ```
-or download the css on github and include in your project.
+View on [npm](https://www.npmjs.org/package/css-unicode-range)
+
 
 ## File Size
 
+1.3K unicode-range.css
+638B unicode-range.min.css
 
 ## The Code
 ```
