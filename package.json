@@ -1,7 +1,7 @@
 {
   "name": "css-unicode-range",
   "style": "unicode-range.css",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "http://github.com/mrmrs/css-unicode-range",
   "description": "Css module of single purpose classes for unicode range",
   "keywords": [
