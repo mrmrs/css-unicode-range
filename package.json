@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.8"
+    "tachyons-cli": "^1.3.0"
   },
   "scripts": {
     "start": "tachyons src/css-unicode-range.css > css/css-unicode-range.css && tachyons src/css-unicode-range.css --minify > css/css-unicode-range.min.css && tachyons src/css-unicode-range.css --generate-docs --package=../../package.json > readme.md"
